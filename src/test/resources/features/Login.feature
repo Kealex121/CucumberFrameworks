@@ -3,7 +3,7 @@ Feature: Login validation
   Background:
     #Given user is able to access to HRMS application
 
-  @login
+  @login @super
   Scenario:  user attempts to log in with an empty username field
     When user login with empty username and correct password
     And user click on login button
@@ -13,7 +13,7 @@ Feature: Login validation
     When user login with correct username and empty password
     And user click on login button
     Then user see the error Password is Empty
-  @login
+  @login @jj
   Scenario: user enters incorrect login credentials
     When user login with wrong username or password
     And user click on login button

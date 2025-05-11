@@ -5,7 +5,7 @@ import pages.DashBoardPage;
 import pages.LoginPage;
 
 
-public class PageInitilizer {
+public class PageInitializer {
 
     public static LoginPage loginPage;
     public static AddEmployeePage addEmployeePage;
